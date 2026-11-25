@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Аюбхон Бобожонов — Frontend и AI-разработчик</title>
+  <meta name="description" content="Портфолио Аюбхона Бобожонова: frontend и AI-разработчик из Коканда.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <header class="header">
+      <a href="#top" class="logo">Аюбхон Бобожонов</a>
+      <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="nav" class="nav" aria-label="Разделы">
+        <a href="#skills">Навыки</a>
+        <a href="#projects">Проекты</a>
+        <a href="#achievements">Достижения</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Главный экран -->
+      <section id="top" class="hero">
+        <div class="chips">
+          <span class="chip chip--accent">Frontend-разработчик</span>
+          <span class="chip chip--accent">AI-разработчик</span>
+          <span class="chip">г. Коканд, Узбекистан</span>
+        </div>
+        <h1 class="hero__title">Создаю интерфейсы на React и приложения с искусственным интеллектом</h1>
+        <p class="hero__text">Мне 15 лет, у меня 1 год опыта во frontend-разработке. Пишу на TypeScript и Python, делаю Telegram-ботов и занимаю 1-е место по направлению ИИ на своих учебных курсах.</p>
+        <div class="hero__buttons">
+          <a href="https://t.me/a_yyybbb" target="_blank" rel="noopener" class="btn btn--primary">Написать в Telegram</a>
+          <a href="#projects" class="btn btn--ghost">Смотреть проекты</a>
+        </div>
+        <div class="stats">
+          <div class="card stat reveal">
+            <div class="stat__value">1 год</div>
+            <div class="muted">опыта во frontend-разработке</div>
+          </div>
+          <div class="card stat reveal">
+            <div class="stat__value">1-е место</div>
+            <div class="muted">по направлению ИИ на учебных курсах</div>
+          </div>
+          <div class="card stat reveal">
+            <div class="stat__value">3 языка</div>
+            <div class="muted">узбекский, русский, английский</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Навыки -->
+      <section id="skills" class="section">
+        <div class="section__head">
+          <span class="label">01 / Навыки</span>
+          <h2 class="section__title">Технологии, с которыми я работаю</h2>
+        </div>
+        <div class="grid">
+          <div class="card skill reveal">
+            <h3>Frontend</h3>
+            <p class="muted">Адаптивная вёрстка и интерактивные интерфейсы.</p>
+            <div class="tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">TypeScript</span><span class="tag">React</span>
+            </div>
+          </div>
+          <div class="card skill reveal">
+            <h3>Python и боты</h3>
+            <p class="muted">Логика, автоматизация и Telegram-боты.</p>
+            <div class="tags">
+              <span class="tag">Python</span><span class="tag">Telegram Bot API</span>
+            </div>
+          </div>
+          <div class="card skill reveal">
+            <h3>Искусственный интеллект</h3>
+            <p class="muted">Создание приложений с помощью ИИ-инструментов и нейросетей.</p>
+            <div class="tags">
+              <span class="tag">AI app builders</span><span class="tag">Нейросети</span><span class="tag">Промпты</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Проекты -->
+      <section id="projects" class="section">
+        <div class="section__head">
+          <span class="label">02 / Проекты</span>
+          <h2 class="section__title">Избранные работы</h2>
+        </div>
+        <div class="grid">
+          <article class="card project reveal">
+            <img src="7sport.png" alt="Каталог интернет-магазина 7 SPORT" class="project__img" loading="lazy">
+            <div class="project__body">
+              <span class="label">Интернет-магазин</span>
+              <h3>7 SPORT — спортивная одежда</h3>
+              <p class="muted">Сайт-каталог для магазина спортивной одежды в Коканде: фильтр по категориям, карточки товаров с размерами и ценами, кнопка заказа и быстрая связь через Telegram.</p>
+              <a href="https://7sport.netlify.app/" target="_blank" rel="noopener" class="project__link">Открыть сайт →</a>
+            </div>
+          </article>
+          <article class="card project reveal">
+            <img src="aeterna.png" alt="Сайт AETERNA о религиях мира" class="project__img" loading="lazy">
+            <div class="project__body">
+              <span class="label">Образовательный сайт</span>
+              <h3>AETERNA — религии мира</h3>
+              <p class="muted">Познавательный сайт о мировых религиях: разделы об истории, святых местах и символах, а также квиз для проверки знаний.</p>
+              <a href="https://dinlar-haqida.netlify.app/" target="_blank" rel="noopener" class="project__link">Открыть сайт →</a>
+            </div>
+          </article>
+          <article class="card project reveal">
+            <img src="tasbih.png" alt="Веб-тасбих с анимированными чётками" class="project__img project__img--center" loading="lazy">
+            <div class="project__body">
+              <span class="label">Интерактивное веб-приложение</span>
+              <h3>Веб-тасбих</h3>
+              <p class="muted">Цифровой тасбих в браузере: анимированные чётки, счётчик зикров до 100, ночная атмосфера с дождём и встроенный плеер нашидов.</p>
+              <a href="https://web-tasbix.netlify.app/" target="_blank" rel="noopener" class="project__link">Открыть сайт →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Достижения, образование, языки -->
+      <section id="achievements" class="section section--split">
+        <div class="split__main">
+          <span class="label">03 / Достижения и образование</span>
+          <div class="award reveal">
+            <div class="award__title">1-е место по направлению ИИ</div>
+            <div class="award__text">на учебных курсах Pro Teach</div>
+          </div>
+          <div class="edu">
+            <div>
+              <div class="edu__title">Ташкентский университет информационных технологий (ТУИТ)</div>
+              <div class="muted">Готовлюсь к поступлению</div>
+            </div>
+            <div>
+              <div class="edu__title">Общеобразовательная школа №1, г. Коканд</div>
+              <div class="muted">Ученик</div>
+            </div>
+          </div>
+        </div>
+        <div class="split__side">
+          <span class="label">04 / Языки</span>
+          <div class="langs reveal">
+            <div class="lang"><span class="lang__name">Узбекский</span><span class="muted">родной</span></div>
+            <div class="lang"><span class="lang__name">Русский</span><span class="muted">свободно, сертификат</span></div>
+            <div class="lang"><span class="lang__name">Английский</span><span class="muted">A2</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Контакты -->
+      <section id="contacts" class="section">
+        <span class="label">05 / Контакты</span>
+        <h2 class="contacts__title">Открыт для стажировки и работы во frontend и AI-разработке</h2>
+        <div class="grid grid--contacts">
+          <a href="https://t.me/a_yyybbb" target="_blank" rel="noopener" class="card contact">
+            <div class="muted contact__label">Telegram</div>
+            <div class="contact__value">@a_yyybbb</div>
+          </a>
+          <button type="button" class="card contact" data-copy="ayubhon606@gmail.com">
+            <div class="muted contact__label">Email · нажмите, чтобы скопировать</div>
+            <div class="contact__value">ayubhon606@gmail.com</div>
+          </button>
+          <a href="#contacts" class="card contact">
+            <div class="muted contact__label">GitHub</div>
+            <div class="contact__value">[ссылка]</div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© <span id="year">2026</span> Аюбхон Бобожонов</span>
+      <span>г. Коканд, Узбекистан</span>
+    </footer>
+
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
